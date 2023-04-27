@@ -1,7 +1,6 @@
 -- options
 
 vim.opt.relativenumber = true
-vim.opt.hlsearch = true
 
 -- telescope
 
