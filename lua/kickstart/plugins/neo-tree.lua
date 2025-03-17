@@ -15,6 +15,10 @@ return {
   },
   opts = {
     filesystem = {
+      follow_current_file = true,
+      filtered_items = {
+        visible = true,
+      },
       window = {
         mappings = {
           ['\\'] = 'close_window',
