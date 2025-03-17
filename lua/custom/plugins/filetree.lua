@@ -13,6 +13,9 @@ return {
     require('neo-tree').setup {
       filesystem = {
         follow_current_file = true,
+        filtered_items = {
+          visible = true,
+        },
       }
     }
   end,
